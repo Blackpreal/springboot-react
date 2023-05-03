@@ -1,0 +1,15 @@
+.h-nav>ul{
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+}
+.h-nav>ul>.nav-list{
+   list-style: none;
+   font-weight: 700;
+   font-size: medium;
+}
+.h-nav>ul>.nav-list:hover{
+    color: rgb(10, 139, 225);
+   border-bottom: 2px solid rgb(10, 139, 225);
+   cursor: pointer;
+}

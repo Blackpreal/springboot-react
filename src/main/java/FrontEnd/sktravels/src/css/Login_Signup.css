@@ -1,0 +1,28 @@
+.h-login{
+    margin-left: 15vw;
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+}
+.h-login>button{
+    padding: 0.3em;
+    width: 6em;
+    
+    border-radius: 0.2em;
+}
+.h-login>.b-login{
+    background-color: rgb(9, 222, 126);
+    border: 1px solid rgb(9, 222, 126);
+}
+.h-login>.b-login:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(9, 222, 126);
+}
+.h-login>.b-signup{
+    background-color: rgb(8, 143, 227);
+    border: 1px solid rgb(8, 143, 227);
+}
+.h-login>.b-signup:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(8, 143, 227);
+}

@@ -1,0 +1,169 @@
+.l-pane{
+    height: 700px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+    position: relative;
+    gap: 10px;
+    user-select: none;
+
+}
+.root-login{
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.l-pane>:nth-child(1){
+    position: absolute;
+    top: 20px;
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(11, 96, 224);
+}
+.l-pane>input{
+    width: 80%;
+    padding: 3px 3px 3px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(197, 197, 197);
+}
+.l-pane>:nth-child(5){
+   position: relative;
+   left: 0;
+   top: 5px;
+   letter-spacing: 1px;
+   width: 80%;
+}
+.l-pane>:nth-child(2){
+    position: relative;
+    left: 0;
+    top: 5px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    width: 80%;
+ }
+ .l-pane>:nth-child(6){
+    position: relative;
+    left: 0;
+    top: 5px;
+    letter-spacing: 1px;
+    width: 80%;
+ }
+ .l-pane>:nth-child(8){
+    position: relative;
+    left: 0;
+    top: 5px;
+    letter-spacing: 1px;
+    width: 80%;
+ }
+
+ .l-pane>:nth-child(11){
+    position: relative;
+    left: 0;
+    top: -8px;
+    letter-spacing: 1px;
+    width: 80%;  
+ }
+ .l-pane>:nth-child(12){
+    position: relative;
+    left: 0;
+    top: -10px;
+ 
+ }
+
+ .l-pane .submit{
+    padding: 5px;
+    text-align: center;
+    border: none;
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(8, 227, 103);
+    background-color: rgb(8, 227, 103);
+    opacity: 0.9;
+    color: white;
+ }
+ .l-pane>button:hover{
+    opacity: 1;
+    
+}
+
+.l-pane .otpbutton{
+   padding: 5px;
+   position: relative;
+   right: -100px;
+   text-align: center;
+   border: none;
+   width: 25%;
+   margin-top: 10px;
+   border-radius: 5px;
+   border: 1px solid rgb(8, 227, 103);
+   background-color: rgb(8, 227, 103);
+   opacity: 0.9;
+   color: white;  
+}
+.l-pane>a{
+    margin-top: 30px;
+}
+
+.l-pane>.name{
+    position: relative;
+    left: 0;
+    top: -10px;
+    letter-spacing: 1px;
+    width: 80%;
+    font-size: 11px;
+    color: red;
+ }
+ .l-pane>.number{
+    position: relative;
+    left: 0;
+    top: -5px;
+    letter-spacing: 1px;
+    width: 80%;
+    font-size: 11px;
+    color: red;
+ }
+ .l-pane>.mail{
+    position: relative;
+    left: 0;
+    top: -10px;
+    letter-spacing: 1px;
+    width: 80%;
+    font-size: 11px;
+    color: red;
+ }
+ .l-pane>.password{
+    position: relative;
+    left: 0;
+    top: -10px;
+    letter-spacing: 1px;
+    width: 80%;
+    font-size: 11px;
+    color: red;
+ }
+ .l-pane>:nth-child(15){
+    width: 40%;
+    margin-left: 100px;
+    position: relative;
+    left: -100px;
+    top: -40px;
+
+ }
+ .l-pane>.otp{
+    position: relative;
+    left: 40px;
+    width: 80%;
+    top: -50px;
+    letter-spacing: 1px;
+    font-size: 11px;
+    color: red;
+ }

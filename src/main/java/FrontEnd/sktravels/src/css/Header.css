@@ -1,0 +1,8 @@
+.header{
+    height: 10vh;
+}
+.header>:nth-child(1){
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 9vh;
+}
